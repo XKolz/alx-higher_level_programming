@@ -6,7 +6,7 @@ import sys
 
 if __name__ == "__main__":
 
-    db = MySQLdb.connect(host="localhost",
+    db = MySQLdb.connect(host="localhostt",
                          port=3306,
                          user=sys.argv[1],
                          passwd=sys.argv[2],
